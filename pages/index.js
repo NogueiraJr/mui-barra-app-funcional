@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import IndexNextJs from './indexnextjs'
 import MenuApp01 from './menu-app'
+import BottomAppBar from './body/bottom-app-bar'
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <MenuApp01 />
+        {/* <MenuApp01 /> */}
+        <BottomAppBar />
         <IndexNextJs />
 
       <footer className={styles.footer}>
